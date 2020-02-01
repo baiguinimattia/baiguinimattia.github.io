@@ -30,7 +30,7 @@ webpackEmptyAsyncContext.id = "./$$_lazy_route_resource lazy recursive";
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"container\">\n    <app-header></app-header>\n    <app-side-menu></app-side-menu>\n    <div class=\"content-container\">\n        <div class=\"content-area\">\n            <router-outlet></router-outlet>\n        </div>\n    </div>\n    <app-footer></app-footer>\n</div>"
+module.exports = "<div class=\"container\">\n    <app-header></app-header>\n    <div class=\"content-container\">\n        <div class=\"content-area\">\n            <router-outlet></router-outlet>\n        </div>\n    </div>\n    <app-footer></app-footer>\n</div>"
 
 /***/ }),
 
@@ -52,7 +52,7 @@ module.exports = "<div id=\"home-container\">\n    <div id=\"image-container\">\
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div id=\"footer-container\">\n    <span>&copy; Baiguini Mattia | Icons made by <a href=\"https://www.flaticon.com/authors/freepik\" title=\"Freepik\">Freepik</a> from <a href=\"https://www.flaticon.com/\" title=\"Flaticon\"> www.flaticon.com</a></span>\n</div>"
+module.exports = "<div id=\"footer-container\">\n    <a [href]=\"linkedIn\" appExternalUrl class=\"btn linkedIn\"><img src=\"../../../assets/linkedin-logo.svg\" alt=\"\"></a>\n    <a [href]=\"github\" appExternalUrl class=\"btn github\"><img src=\"../../../assets/010-github.svg\" alt=\"\"></a>\n    <br>\n    <span>&copy; Baiguini Mattia</span>\n    <div>Icons made by <a href=\"https://www.flaticon.com/authors/freepik\" title=\"Freepik\">Freepik</a> from <a href=\"https://www.flaticon.com/\" title=\"Flaticon\">www.flaticon.com</a></div>\n    <br>\n    <div>Icons made by <a href=\"https://www.flaticon.com/authors/google\" title=\"Google\">Google</a> from <a href=\"https://www.flaticon.com/\" title=\"Flaticon\">www.flaticon.com</a></div>\n</div>"
 
 /***/ }),
 
@@ -64,17 +64,6 @@ module.exports = "<div id=\"footer-container\">\n    <span>&copy; Baiguini Matti
 /***/ (function(module, exports) {
 
 module.exports = "<nav id=\"header-container\">\n    <h5 class=\"heading-name\">BAIGUINI MATTIA</h5>\n</nav>"
-
-/***/ }),
-
-/***/ "./node_modules/raw-loader/index.js!./src/app/shared/side-menu/side-menu.component.html":
-/*!*************************************************************************************!*\
-  !*** ./node_modules/raw-loader!./src/app/shared/side-menu/side-menu.component.html ***!
-  \*************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "<div id=\"side-container\">\n</div>"
 
 /***/ }),
 
@@ -379,7 +368,7 @@ ExternalUrlDirective = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "#footer-container {\r\n    width: 100vw;\r\n    height: 100px;\r\n    background-color: #F3E4CF;\r\n    text-align: center;\r\n    padding: 1rem 1rem;\r\n    font-size: 0.85rem;\r\n}\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvc2hhcmVkL2Zvb3Rlci9mb290ZXIuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtJQUNJLFlBQVk7SUFDWixhQUFhO0lBQ2IseUJBQXlCO0lBQ3pCLGtCQUFrQjtJQUNsQixrQkFBa0I7SUFDbEIsa0JBQWtCO0FBQ3RCIiwiZmlsZSI6InNyYy9hcHAvc2hhcmVkL2Zvb3Rlci9mb290ZXIuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIiNmb290ZXItY29udGFpbmVyIHtcclxuICAgIHdpZHRoOiAxMDB2dztcclxuICAgIGhlaWdodDogMTAwcHg7XHJcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjRjNFNENGO1xyXG4gICAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG4gICAgcGFkZGluZzogMXJlbSAxcmVtO1xyXG4gICAgZm9udC1zaXplOiAwLjg1cmVtO1xyXG59Il19 */"
+module.exports = "#footer-container {\r\n    width: 100vw;\r\n    height: auto;\r\n    background-color: #F3E4CF;\r\n    text-align: center;\r\n    padding: 1rem 1rem;\r\n    font-size: 0.85rem;\r\n}\r\n\r\n.btn {\r\n    border: none;\r\n    width: 50px;\r\n    height: 50px;\r\n}\r\n\r\n.btn:hover {\r\n    background-color: darkgray;\r\n}\r\n\r\n.btn.linkedIn img {\r\n    width: 50px;\r\n    -o-object-fit: contain;\r\n       object-fit: contain;\r\n}\r\n\r\n.btn.github img {\r\n    width: 50px;\r\n    -o-object-fit: contain;\r\n       object-fit: contain;\r\n}\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvc2hhcmVkL2Zvb3Rlci9mb290ZXIuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtJQUNJLFlBQVk7SUFDWixZQUFZO0lBQ1oseUJBQXlCO0lBQ3pCLGtCQUFrQjtJQUNsQixrQkFBa0I7SUFDbEIsa0JBQWtCO0FBQ3RCOztBQUVBO0lBQ0ksWUFBWTtJQUNaLFdBQVc7SUFDWCxZQUFZO0FBQ2hCOztBQUVBO0lBQ0ksMEJBQTBCO0FBQzlCOztBQUVBO0lBQ0ksV0FBVztJQUNYLHNCQUFtQjtPQUFuQixtQkFBbUI7QUFDdkI7O0FBRUE7SUFDSSxXQUFXO0lBQ1gsc0JBQW1CO09BQW5CLG1CQUFtQjtBQUN2QiIsImZpbGUiOiJzcmMvYXBwL3NoYXJlZC9mb290ZXIvZm9vdGVyLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIjZm9vdGVyLWNvbnRhaW5lciB7XHJcbiAgICB3aWR0aDogMTAwdnc7XHJcbiAgICBoZWlnaHQ6IGF1dG87XHJcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjRjNFNENGO1xyXG4gICAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG4gICAgcGFkZGluZzogMXJlbSAxcmVtO1xyXG4gICAgZm9udC1zaXplOiAwLjg1cmVtO1xyXG59XHJcblxyXG4uYnRuIHtcclxuICAgIGJvcmRlcjogbm9uZTtcclxuICAgIHdpZHRoOiA1MHB4O1xyXG4gICAgaGVpZ2h0OiA1MHB4O1xyXG59XHJcblxyXG4uYnRuOmhvdmVyIHtcclxuICAgIGJhY2tncm91bmQtY29sb3I6IGRhcmtncmF5O1xyXG59XHJcblxyXG4uYnRuLmxpbmtlZEluIGltZyB7XHJcbiAgICB3aWR0aDogNTBweDtcclxuICAgIG9iamVjdC1maXQ6IGNvbnRhaW47XHJcbn1cclxuXHJcbi5idG4uZ2l0aHViIGltZyB7XHJcbiAgICB3aWR0aDogNTBweDtcclxuICAgIG9iamVjdC1maXQ6IGNvbnRhaW47XHJcbn0iXX0= */"
 
 /***/ }),
 
@@ -398,7 +387,10 @@ __webpack_require__.r(__webpack_exports__);
 
 
 let FooterComponent = class FooterComponent {
-    constructor() { }
+    constructor() {
+        this.linkedIn = "https://www.linkedin.com/in/mattia-baiguini-788002140/";
+        this.github = "https://github.com/baiguinimattia";
+    }
     ngOnInit() {
     }
 };
@@ -471,12 +463,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/fesm2015/common.js");
 /* harmony import */ var _clr_angular__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @clr/angular */ "./node_modules/@clr/angular/fesm2015/clr-angular.js");
 /* harmony import */ var _header_header_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./header/header.component */ "./src/app/shared/header/header.component.ts");
-/* harmony import */ var _side_menu_side_menu_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./side-menu/side-menu.component */ "./src/app/shared/side-menu/side-menu.component.ts");
-/* harmony import */ var _swiper_swiper_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./swiper/swiper.component */ "./src/app/shared/swiper/swiper.component.ts");
-/* harmony import */ var ngx_swiper_wrapper__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ngx-swiper-wrapper */ "./node_modules/ngx-swiper-wrapper/dist/ngx-swiper-wrapper.es5.js");
-/* harmony import */ var _footer_footer_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./footer/footer.component */ "./src/app/shared/footer/footer.component.ts");
-/* harmony import */ var _external_url_directive__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./external-url.directive */ "./src/app/shared/external-url.directive.ts");
-
+/* harmony import */ var _swiper_swiper_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./swiper/swiper.component */ "./src/app/shared/swiper/swiper.component.ts");
+/* harmony import */ var ngx_swiper_wrapper__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ngx-swiper-wrapper */ "./node_modules/ngx-swiper-wrapper/dist/ngx-swiper-wrapper.es5.js");
+/* harmony import */ var _footer_footer_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./footer/footer.component */ "./src/app/shared/footer/footer.component.ts");
+/* harmony import */ var _external_url_directive__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./external-url.directive */ "./src/app/shared/external-url.directive.ts");
 
 
 
@@ -495,63 +485,21 @@ let SharedModule = class SharedModule {
 };
 SharedModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModule"])({
-        declarations: [_header_header_component__WEBPACK_IMPORTED_MODULE_4__["HeaderComponent"], _side_menu_side_menu_component__WEBPACK_IMPORTED_MODULE_5__["SideMenuComponent"], _swiper_swiper_component__WEBPACK_IMPORTED_MODULE_6__["SwiperComponent"], _footer_footer_component__WEBPACK_IMPORTED_MODULE_8__["FooterComponent"], _external_url_directive__WEBPACK_IMPORTED_MODULE_9__["ExternalUrlDirective"]],
+        declarations: [_header_header_component__WEBPACK_IMPORTED_MODULE_4__["HeaderComponent"], _swiper_swiper_component__WEBPACK_IMPORTED_MODULE_5__["SwiperComponent"], _footer_footer_component__WEBPACK_IMPORTED_MODULE_7__["FooterComponent"], _external_url_directive__WEBPACK_IMPORTED_MODULE_8__["ExternalUrlDirective"]],
         imports: [
             _angular_common__WEBPACK_IMPORTED_MODULE_2__["CommonModule"],
             _clr_angular__WEBPACK_IMPORTED_MODULE_3__["ClarityModule"],
-            ngx_swiper_wrapper__WEBPACK_IMPORTED_MODULE_7__["SwiperModule"]
+            ngx_swiper_wrapper__WEBPACK_IMPORTED_MODULE_6__["SwiperModule"]
         ],
         providers: [
             {
-                provide: ngx_swiper_wrapper__WEBPACK_IMPORTED_MODULE_7__["SWIPER_CONFIG"],
+                provide: ngx_swiper_wrapper__WEBPACK_IMPORTED_MODULE_6__["SWIPER_CONFIG"],
                 useValue: DEFAULT_SWIPER_CONFIG
             }
         ],
-        exports: [_header_header_component__WEBPACK_IMPORTED_MODULE_4__["HeaderComponent"], _side_menu_side_menu_component__WEBPACK_IMPORTED_MODULE_5__["SideMenuComponent"], _swiper_swiper_component__WEBPACK_IMPORTED_MODULE_6__["SwiperComponent"], _footer_footer_component__WEBPACK_IMPORTED_MODULE_8__["FooterComponent"], _external_url_directive__WEBPACK_IMPORTED_MODULE_9__["ExternalUrlDirective"]]
+        exports: [_header_header_component__WEBPACK_IMPORTED_MODULE_4__["HeaderComponent"], _swiper_swiper_component__WEBPACK_IMPORTED_MODULE_5__["SwiperComponent"], _footer_footer_component__WEBPACK_IMPORTED_MODULE_7__["FooterComponent"], _external_url_directive__WEBPACK_IMPORTED_MODULE_8__["ExternalUrlDirective"]]
     })
 ], SharedModule);
-
-
-
-/***/ }),
-
-/***/ "./src/app/shared/side-menu/side-menu.component.css":
-/*!**********************************************************!*\
-  !*** ./src/app/shared/side-menu/side-menu.component.css ***!
-  \**********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "#side-container {\r\n    position: fixed;\r\n    left: 0;\r\n    top: 40%;\r\n    width: 50px;\r\n    height: 150px;\r\n    border: 1px solid white;\r\n    z-index: 3;\r\n}\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvc2hhcmVkL3NpZGUtbWVudS9zaWRlLW1lbnUuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtJQUNJLGVBQWU7SUFDZixPQUFPO0lBQ1AsUUFBUTtJQUNSLFdBQVc7SUFDWCxhQUFhO0lBQ2IsdUJBQXVCO0lBQ3ZCLFVBQVU7QUFDZCIsImZpbGUiOiJzcmMvYXBwL3NoYXJlZC9zaWRlLW1lbnUvc2lkZS1tZW51LmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIjc2lkZS1jb250YWluZXIge1xyXG4gICAgcG9zaXRpb246IGZpeGVkO1xyXG4gICAgbGVmdDogMDtcclxuICAgIHRvcDogNDAlO1xyXG4gICAgd2lkdGg6IDUwcHg7XHJcbiAgICBoZWlnaHQ6IDE1MHB4O1xyXG4gICAgYm9yZGVyOiAxcHggc29saWQgd2hpdGU7XHJcbiAgICB6LWluZGV4OiAzO1xyXG59Il19 */"
-
-/***/ }),
-
-/***/ "./src/app/shared/side-menu/side-menu.component.ts":
-/*!*********************************************************!*\
-  !*** ./src/app/shared/side-menu/side-menu.component.ts ***!
-  \*********************************************************/
-/*! exports provided: SideMenuComponent */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SideMenuComponent", function() { return SideMenuComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
-
-
-let SideMenuComponent = class SideMenuComponent {
-    constructor() { }
-    ngOnInit() {
-    }
-};
-SideMenuComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
-    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
-        selector: 'app-side-menu',
-        template: __webpack_require__(/*! raw-loader!./side-menu.component.html */ "./node_modules/raw-loader/index.js!./src/app/shared/side-menu/side-menu.component.html"),
-        styles: [__webpack_require__(/*! ./side-menu.component.css */ "./src/app/shared/side-menu/side-menu.component.css")]
-    })
-], SideMenuComponent);
 
 
 
