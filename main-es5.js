@@ -98,16 +98,15 @@ __webpack_require__.r(__webpack_exports__);
 
 var externalUrlProvider = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["InjectionToken"]('externalUrlRedirectResolver');
 var routes = [
-    { path: 'home', component: _home_home_component__WEBPACK_IMPORTED_MODULE_3__["HomeComponent"] },
+    { path: '', component: _home_home_component__WEBPACK_IMPORTED_MODULE_3__["HomeComponent"] },
     {
         path: 'externalRedirect', resolve: {
             url: externalUrlProvider,
         },
         component: _home_home_component__WEBPACK_IMPORTED_MODULE_3__["HomeComponent"]
     },
-    { path: '', redirectTo: 'home', pathMatch: 'full' },
     {
-        path: '*', redirectTo: 'home', pathMatch: 'full'
+        path: '*', redirectTo: '', pathMatch: 'full'
     }
 ];
 var AppRoutingModule = /** @class */ (function () {
@@ -260,7 +259,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var HomeComponent = /** @class */ (function () {
     function HomeComponent() {
-        this.liveLink = "https://morning-meadow-06942.herokuapp.com/";
+        this.liveLink = "https://matmal-tv.herokuapp.com/";
         this.gitCode = "https://github.com/baiguinimattia/TVSeriesWebApp";
         this.resume = "https://drive.google.com/open?id=1ALlgSlSsYB9CDdBtnmEq_TBuTtbBRzY9";
     }
